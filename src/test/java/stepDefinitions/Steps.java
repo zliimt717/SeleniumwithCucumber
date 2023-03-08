@@ -9,7 +9,7 @@ import pageObjects.LoginPage;
 
 public class Steps {
 
-    public WebDriver driver;
+    public static WebDriver driver;
     public LoginPage lp;
     @Given("User Launch Chrome browser")
     public void user_launch_chrome_browser() {
